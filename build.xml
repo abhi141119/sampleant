@@ -1,0 +1,25 @@
+<project name="myproject" default="dist">
+<!--
+compile- input of java file and output is .class file
+Create a jar file - input are .class o/p is jar file
+copy web files
+Create a zip file and ship to client
+-->
+
+<target name="compile">
+
+</target>
+
+<target name="jar" depends="compile">
+
+</target>
+
+<target name="copyweb">
+
+</target>
+
+<target name="dist">
+<echo> Hi This is abhilash </echo>
+</target>
+
+</project>
